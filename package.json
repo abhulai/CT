@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "parcel serve ./src/index.html",
     "build": "parcel ./src/index.html",
-    "start": "parcel src/index.html --open"
+    "start": "parcel src/index.html -p 8080 --open"
   },
   "devDependencies": {
     "@parcel/transformer-typescript-tsc": "^2.0.0-rc.0",
@@ -10,6 +10,7 @@
     "parcel": "^2.0.0-rc.0",
     "postcss": "^8.0.0",
     "postcss-import": "^14.0.2",
+    "process": "^0.11.10",
     "tailwindcss": "^2.2.7"
   },
   "dependencies": {
@@ -17,7 +18,8 @@
     "@types/react-dom": "^17.0.9",
     "@types/react-router-dom": "^5.3.0",
     "@types/uuid": "^8.3.1",
-    "d3": "^5.5.0",
+    "d3": "^7.8.5",
+    "express": "^4.18.2",
     "react": "^17.0.2",
     "react-d3-graph": "^2.6.0",
     "react-dom": "^17.0.2",
